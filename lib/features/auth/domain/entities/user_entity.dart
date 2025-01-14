@@ -1,13 +1,75 @@
-class UserEntity{
-   int? id;
-   String? name;
-   String? email;
-   String? phone;
+class UserEntity {
+    int? id;
+    String? image;
+    String? userName;
+    String? referralCode;
+    String? firstName;
+    String? lastName;
+    String? email;
+    dynamic phone;
+    String? gender;
+    DateTime? dob;
+    List<dynamic> profession;
+    List<String> interest;
+    String? bio;
+    List<String> languages;
+    String? status;
+    dynamic blockTill;
+    dynamic otp;
+    dynamic refId;
+    String? relation;
+    String? relationWithName;
+    int? relationWithId;
+    DateTime? relationSince;
+    String? cover;
+    dynamic badge;
+    dynamic socialProvider;
+    String? referralUrl;
+    String? fullName;
+    String? profilePicture;
+    String? coverPhoto;
+    String? currentBadge;
+    int? friendStatus;
+    int? followStatus;
+    dynamic familyRelationStatus;
+    int? mutualFriend;
+    int? starBalance;
 
     UserEntity({
-      this.name,
-      this.email,
-      this.id,
-      this.phone,
-  });
+        required this.id,
+        required this.image,
+        required this.userName,
+        required this.referralCode,
+        required this.firstName,
+        required this.lastName,
+        required this.email,
+        required this.phone,
+        required this.gender,
+        required this.dob,
+        required this.profession,
+        required this.interest,
+        required this.bio,
+        required this.languages,
+        required this.status,
+        required this.blockTill,
+        required this.otp,
+        required this.refId,
+        required this.relation,
+        required this.relationWithName,
+        required this.relationWithId,
+        required this.relationSince,
+        required this.cover,
+        required this.badge,
+        required this.socialProvider,
+        required this.referralUrl,
+        required this.fullName,
+        required this.profilePicture,
+        required this.coverPhoto,
+        required this.currentBadge,
+        required this.friendStatus,
+        required this.followStatus,
+        required this.familyRelationStatus,
+        required this.mutualFriend,
+        this.starBalance,
+    });
 }
